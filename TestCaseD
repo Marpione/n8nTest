@@ -1,0 +1,5 @@
+public static int Counter = 0; 
+public void IncrementCounter()
+{
+    Counter++; 
+}

@@ -1,0 +1,1 @@
+public void DoSomething(int x,int y){if(x>y){Console.WriteLine("X is greater");}else{Console.WriteLine("Y is greater");}}
