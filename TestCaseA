@@ -1,0 +1,13 @@
+using System;
+
+public class MathOperations
+{
+    public int Divide(int dividend, int divisor)
+    {
+        if (divisor == 0)
+        {
+            throw new ArgumentException("Divisor cannot be zero.", nameof(divisor));
+        }
+        return dividend / divisor;
+    }
+}
