@@ -1,11 +1,13 @@
+using System;
+
 public class MathOperations
 {
-    public int Divide(int a, int b)
+    public int Divide(int dividend, int divisor)
     {
-        if (b == 0)
+        if (divisor == 0)
         {
-            throw new ArgumentException("Denominator cannot be zero.", nameof(b));
+            throw new ArgumentException("Divisor cannot be zero.", nameof(divisor));
         }
-        return a / b;
+        return dividend / divisor;
     }
 }
